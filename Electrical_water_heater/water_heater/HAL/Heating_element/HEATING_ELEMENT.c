@@ -1,0 +1,17 @@
+/*
+ * HEATING_ELEMENT.c
+ *
+ *  Author:Toby
+  */ 
+#include "HEATING_ELEMENT.h"
+#include "DIO_private.h"
+
+void HEATING_ELEMENT_INIT(void){
+	DIO_Direction(DIO_PORTB,HEATING_ELEMENT_PIN,DIO_OUTPUT);
+}
+void HEATING_ELEMENT_ON(void){
+	DIO_value(DIO_PORTB,HEATING_ELEMENT_PIN,DIO_HIGH);
+}
+void HEATING_ELEMENT_OFF(void){
+	DIO_value(DIO_PORTB,HEATING_ELEMENT_PIN,DIO_LOW);
+}

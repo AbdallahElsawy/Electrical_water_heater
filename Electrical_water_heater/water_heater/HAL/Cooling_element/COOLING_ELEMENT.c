@@ -1,0 +1,23 @@
+/*
+ * COOLING_ELEMENT.c
+ *
+ *  Author:Toby
+  */ 
+
+
+#include "COOLING_ELEMENT.h"
+
+#include "main.h"
+
+void COOLING_ELEMENT_INIT(void)
+{
+	DIO_Direction(DIO_PORTC,COOLING_ELEMENT_PIN,DIO_OUTPUT);
+}
+void COOLING_ELEMENT_ON(void
+){
+	DIO_value(DIO_PORTC,COOLING_ELEMENT_PIN,DIO_HIGH);
+}
+void COOLING_ELEMENT_OFF(void)
+{
+	DIO_value(DIO_PORTC,COOLING_ELEMENT_PIN,DIO_LOW);
+}

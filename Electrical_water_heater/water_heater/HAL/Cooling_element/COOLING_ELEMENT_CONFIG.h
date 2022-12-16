@@ -1,0 +1,16 @@
+/*
+ * COOLING_ELEMENT_CONFIG.h
+ *
+ *  Author:Toby
+  */ 
+
+
+#ifndef COOLING_ELEMENT_CONFIG_H_
+#define COOLING_ELEMENT_CONFIG_H_
+
+#define COOLING_ELEMENT_Port   PORTC
+#define COOLING_ELEMENT_PIN   PC7
+
+
+
+#endif /* COOLING_ELEMENT_CONFIG_H_ */

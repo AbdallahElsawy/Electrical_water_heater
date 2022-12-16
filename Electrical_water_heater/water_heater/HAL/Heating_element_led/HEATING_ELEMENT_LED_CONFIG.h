@@ -1,0 +1,15 @@
+/*
+ * HEATING_ELEMENT_LED_CONFIG.h
+ *
+ *  Author: toby
+ */ 
+
+
+#ifndef HEATING_ELEMENT_LED_CONFIG_H_
+#define HEATING_ELEMENT_LED_CONFIG_H_
+
+#define HEATING_ELEMENT_LED_PIN  PC2
+
+
+
+#endif /* HEATING_ELEMENT_LED_CONFIG_H_ */
